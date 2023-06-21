@@ -1,12 +1,9 @@
-//Modules
-
-const name = require('./04-names')
+// CommonJS, every file is module (by default)
+// Modules - Encapsulated Code (only share minimum)
+const names = require('./04-names')
 const sayHi = require('./05-utils')
 const data = require('./06-alternative-flavor')
 require('./07-mind-grenade')
-console.log(data)
-console.log(name)
-
 sayHi('susan')
-sayHi(name.john)
-sayHi(name.peter)
+sayHi(names.john)
+sayHi(names.peter)

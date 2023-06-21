@@ -1,7 +1,7 @@
-const num1 = 10
-const num2 = 5
+const num1 = 5
+const num2 = 10
 
-function addValues () {
+function addValues() {
   console.log(`the sum is : ${num1 + num2}`)
 }
 
